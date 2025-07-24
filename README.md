@@ -35,4 +35,4 @@ Open for educational and non-commercial use. Attribution appreciated.
 
 ---
 
-> Created with ❤️ by [Aadesh Kanade](https://github.com/aadeshkanade) – Cybersecurity Graduate | GRC & Risk Management Enthusiast
+> Created with ❤️ by [Aadesh Kanade](https://github.com/aadesh-cyber) – Cybersecurity Graduate | GRC & Risk Management Enthusiast
