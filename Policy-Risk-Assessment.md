@@ -6,7 +6,7 @@ This markdown template is designed for evaluating cybersecurity and data governa
 
 ## 🎯 Purpose
 
-To identify and assess risks caused by missing, weak, or non-compliant policies — and to suggest remediation strategies aligned with recognized frameworks like ISO 27001, NIST CSF, and PCI DSS.
+To identify and assess risks caused by missing, weak, or non-compliant policies and to suggest remediation strategies aligned with recognized frameworks like ISO 27001, NIST CSF, and PCI DSS.
 
 ---
 
