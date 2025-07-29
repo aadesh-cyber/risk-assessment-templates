@@ -1,6 +1,6 @@
 # 🧾 Simple Risk Register
 
-This document provides a basic cybersecurity risk register in markdown format — ideal for student labs, GRC analyst practice, or policy documentation.
+This document provides a basic cybersecurity risk register in markdown format ideal for student labs, GRC analyst practice, or policy documentation.
 
 It includes practical examples, a scoring matrix, and key definitions to help you perform qualitative risk assessments aligned with ISO 27001, NIST CSF, and other frameworks.
 
