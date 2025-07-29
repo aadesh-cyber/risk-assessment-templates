@@ -6,7 +6,7 @@ SOC analysts, and anyone looking to implement structured risk management process
 
 ## 📂 Contents
 
-- **Simple-Risk-Register.xlsx** – A basic risk register that includes:
+- **Simple-Risk-Register** – A basic risk register that includes:
   - Asset identification
   - Threat & vulnerability mapping
   - Likelihood and impact scoring
