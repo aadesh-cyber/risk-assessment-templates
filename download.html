@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Download Risk Assessment Templates</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    header h1 {
+      font-size: 1.9rem;
+      color: #f0f6fc;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      color: #8b949e;
+      font-size: 0.95rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.25rem;
+      width: 100%;
+      max-width: 900px;
+    }
+
+    .card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 10px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      transition: border-color 0.2s;
+    }
+
+    .card:hover { border-color: #58a6ff; }
+
+    .card-badge {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 0.2rem 0.55rem;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      width: fit-content;
+    }
+
+    .badge-uk    { background: #1f4068; color: #58a6ff; }
+    .badge-basic { background: #1a2e1a; color: #56d364; }
+    .badge-policy{ background: #2e1a1a; color: #f78166; }
+    .badge-threat{ background: #2b2418; color: #e3b341; }
+
+    .card h2 {
+      font-size: 1rem;
+      color: #f0f6fc;
+      line-height: 1.4;
+    }
+
+    .card p {
+      font-size: 0.875rem;
+      color: #8b949e;
+      line-height: 1.6;
+      flex: 1;
+    }
+
+    .card .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .tag {
+      font-size: 0.72rem;
+      background: #21262d;
+      color: #8b949e;
+      border: 1px solid #30363d;
+      border-radius: 4px;
+      padding: 0.15rem 0.45rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-top: 0.25rem;
+      padding: 0.55rem 1rem;
+      background: #238636;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s;
+      align-self: flex-start;
+    }
+
+    .btn:hover { background: #2ea043; }
+    .btn-blue  { background: #1f6feb; }
+    .btn-blue:hover { background: #388bfd; }
+
+    .btn svg {
+      width: 14px; height: 14px;
+      stroke: currentColor; fill: none;
+      stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+    }
+
+    footer {
+      margin-top: 3rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #484f58;
+    }
+
+    footer a { color: #58a6ff; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🛡️ Risk Assessment Templates</h1>
+  <p>Download templates for GRC, ISO 27001, NCSC CAF, and UK cyber compliance.</p>
+</header>
+
+<div class="grid">
+
+  <!-- UK CBIL Report -->
+  <div class="card">
+    <span class="card-badge badge-uk">🇬🇧 UK / NCSC</span>
+    <h2>UK Cyber Business Impact Level (CBIL) Report</h2>
+    <p>
+      Full CBIL assessment aligned with NCSC CAF, NIS Regulations 2018, UK GDPR,
+      FCA SYSC 15A, and ISO 22301. Includes impact scoring, recovery objectives,
+      threat scenarios, regulatory notification thresholds, and a risk treatment plan.
+    </p>
+    <div class="tags">
+      <span class="tag">NCSC CAF</span>
+      <span class="tag">NIS Regs 2018</span>
+      <span class="tag">UK GDPR</span>
+      <span class="tag">ISO 22301</span>
+      <span class="tag">FCA</span>
+      <span class="tag">CBIL 1–5</span>
+    </div>
+    <button class="btn btn-blue" onclick="downloadFile('UK-CBIL-Report.md', 'UK-CBIL-Report.md')">
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download CBIL Report (.md)
+    </button>
+  </div>
+
+  <!-- Simple Risk Register -->
+  <div class="card">
+    <span class="card-badge badge-basic">📋 Core</span>
+    <h2>Simple Risk Register</h2>
+    <p>
+      A foundational risk register covering asset identification, threat &amp;
+      vulnerability mapping, likelihood/impact scoring (1–5), risk score
+      calculation, controls, and residual risk. Aligned with ISO 27001 and NIST CSF.
+    </p>
+    <div class="tags">
+      <span class="tag">ISO 27001</span>
+      <span class="tag">NIST CSF</span>
+      <span class="tag">Risk Scoring</span>
+      <span class="tag">Controls</span>
+    </div>
+    <button class="btn" onclick="downloadFile('Simple-Risk-Register.md', 'Simple-Risk-Register.md')">
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download (.md)
+    </button>
+  </div>
+
+  <!-- Policy Risk Assessment -->
+  <div class="card">
+    <span class="card-badge badge-policy">📜 Policy</span>
+    <h2>Policy Risk Assessment</h2>
+    <p>
+      Evaluates risk from policy gaps and outdated practices. Covers Acceptable
+      Use, Data Classification, Remote Access, Retention, and Vendor Risk.
+      Aligned with ISO 27001, NIST CSF, PCI DSS, and GDPR.
+    </p>
+    <div class="tags">
+      <span class="tag">ISO 27001</span>
+      <span class="tag">PCI DSS</span>
+      <span class="tag">GDPR</span>
+      <span class="tag">Policy Gaps</span>
+    </div>
+    <button class="btn" onclick="downloadFile('Policy-Risk-Assessment.md', 'Policy-Risk-Assessment.md')">
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download (.md)
+    </button>
+  </div>
+
+  <!-- Threat Risk Mapping -->
+  <div class="card">
+    <span class="card-badge badge-threat">🎯 Threat Modelling</span>
+    <h2>Threat-Risk Mapping</h2>
+    <p>
+      Connects assets, threat actors, vulnerabilities, and mitigating controls.
+      Includes a MITRE ATT&amp;CK technique mapping table. Suitable for tabletop
+      exercises and ISO 27005 risk processes.
+    </p>
+    <div class="tags">
+      <span class="tag">MITRE ATT&CK</span>
+      <span class="tag">ISO 27005</span>
+      <span class="tag">Threat Actors</span>
+      <span class="tag">Tabletop</span>
+    </div>
+    <button class="btn" onclick="downloadFile('Threat-Risk-Mapping.md', 'Threat-Risk-Mapping.md')">
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download (.md)
+    </button>
+  </div>
+
+</div>
+
+<footer>
+  <p>
+    Maintained by <a href="https://github.com/aadesh-cyber">Aadesh Kanade</a> &mdash;
+    Cybersecurity Graduate | GRC &amp; Risk Management Enthusiast<br/>
+    Open for educational and non-commercial use. Attribution appreciated.
+  </p>
+</footer>
+
+<script>
+  async function downloadFile(filename, saveAs) {
+    try {
+      const res = await fetch(filename);
+      if (!res.ok) throw new Error('File not found');
+      const text = await res.text();
+      const blob = new Blob([text], { type: 'text/markdown;charset=utf-8' });
+      const url  = URL.createObjectURL(blob);
+      const a    = document.createElement('a');
+      a.href     = url;
+      a.download = saveAs;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch (err) {
+      alert('Could not download "' + filename + '".\nServe this page from a local or GitHub Pages server.');
+    }
+  }
+</script>
+
+</body>
+</html>
